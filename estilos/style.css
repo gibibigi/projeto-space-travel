@@ -1,0 +1,59 @@
+/*
+cor de fundo da pagina: white/branco, #ffffff
+header, letras e hover gray/cinza, #808080, black/preto, #000000, steelblue/azul metálico, #4682b4
+*/
+
+body{
+    background-color: white;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #808080, #d3d3d3);
+    padding: 0px 0px 10px 0px;
+    border-radius: 10px;
+    min-height: 70px;
+}
+
+h1{
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav{
+    min-height: 25px;
+}
+
+nav > a{
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-size: smaller;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    padding: 0px 10px 0px 10px;
+}
+
+a:hover{}
+
+main{
+    background-color: #4682b4;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+/*section{}*/
+
+/*article{}*/
+
+/*p{}*/
+
+/*footer{}*/
