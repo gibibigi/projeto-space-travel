@@ -1,14 +1,34 @@
 /*
-cor de fundo da pagina: white/branco, #ffffff
-header, letras e hover gray/cinza, #808080, black/preto, #000000, steelblue/azul metálico, #4682b4
+cor de fundo da pagina: nata, #eaf8bf
+header, letras e hover colha ouro, #eca400, black/preto, #000000, azul oxford, #001d4a
+
+corante indigo #27476e
+
+fonte1 titulo @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+fonte2 subtitulo/nav @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+fonte3 textos @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --font1: 'Courier Prime', monospace;
+    --font2: 'Playfair Display', serif;
+    --font3: 'PT Sans', sans-serif;
+}
+
 body{
-    background-color: white;
+    background-color: #eaf8bf;
 }
 
 header{
-    background-image: linear-gradient(to bottom, #808080, #d3d3d3);
+    background-image: linear-gradient(to bottom, #eca400, #664700);
     padding: 0px 0px 10px 0px;
     border-radius: 10px;
     min-height: 70px;
@@ -17,11 +37,14 @@ header{
 h1{
     padding: 10px 0px 0px 0px;
     text-align: center;
+    font-family: var(--font1);
+    color: #27476e;
 }
 
 h2{
     text-align: center;
     text-decoration: underline;
+    font-family: var(--font2);
 }
 
 nav{
@@ -45,9 +68,10 @@ a{
 a:hover{}
 
 main{
-    background-color: #4682b4;
+    background-color: #27476e;
     text-align: justify;
     border-radius: 8px;
+    font-family: var(--font3);
 }
 
 /*section{}*/
